@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Product | eCommerce Landing Page</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4C+6gVzNpSTyBdgTcJvRwFlonYGJhXoC/qCgXBNxujg+YrSc8cVZ8c5XkjE5wHg7hN5Fg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <img src="../ecomm/images/shoplogo.png" alt="AwesomeProduct Logo">
+        </a>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#product-section" class="active">Product</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#newsletter">Subscribe</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+        </ul>
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Discover the Future of Shopping</h1>
+                <p>Experience the best quality with our exclusive range of products designed just for you.</p>
+                <button class="cta-button" onclick="buyNow()">Shop Now</button>
+            </div>
+            <div class="hero-image">
+                <img src="../ecomm/images/shop1.jpeg" alt="Hero Image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Product Section -->
+        <section id="product-section" class="product-section">
+            <h2>Featured Product</h2>
+            <div class="product-carousel">
+                <div class="carousel-images">
+                    <img src="../ecomm/images/shop2.jpeg" alt="Product Image 1">
+                    <img src="../ecomm/images/shop3.jpeg" alt="Product Image 2">
+                    <img src="../ecomm/images/shop4.jpeg" alt="Product Image 3">
+                  
+                </div>
+                <div class="product-details">
+                    <h3>Awesome Product Name</h3>
+                    <p>Discover the unparalleled quality and design of our Awesome Product. Crafted with precision and tailored to meet your needs, it stands out in both functionality and style.</p>
+                    <div class="price">₹1449.99</div>
+                    <button class="cta-button" onclick="buyNow()">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews -->
+        <section id="reviews" class="reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <p>"This product exceeded my expectations! The quality is top-notch and the customer service was fantastic." <strong>- Jane Doe</strong></p>
+                </div>
+                <div class="review">
+                    <p>"Excellent value for money. I highly recommend this to anyone looking for reliability and style." <strong>- John Smith</strong></p>
+                </div>
+                <div class="review">
+                    <p>"Five stars! Will definitely purchase again. The design is sleek and it performs flawlessly." <strong>- Emily Johnson</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section id="newsletter" class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive the latest updates and exclusive offers.</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="#product-section">Product</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#newsletter">Subscribe</a>
+                <a href="#contact-us">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 AwesomeProduct. All rights reserved. Made with 💘 by priyanav.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
